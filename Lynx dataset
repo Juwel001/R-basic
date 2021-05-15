@@ -1,0 +1,7 @@
+library(dslabs)
+data(lynx) # load data
+head(lynx) #head of data
+summary(lynx) # summary of data
+length(lynx)#length of dataset
+hist(lynx,w=2,col="green")# histogram with bin width 2 and color green
+hist(lynx, col=c("green", "purple","red"))# using 3 colors on the histogram
