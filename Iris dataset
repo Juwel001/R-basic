@@ -1,0 +1,7 @@
+library(dslabs)
+library(dplyr)
+data(iris)
+head(iris)
+my_sepal<-iris$Sepal.Length
+summary(my_sepal)
+sum(my_sepal)
